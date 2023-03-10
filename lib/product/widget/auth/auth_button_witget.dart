@@ -33,7 +33,7 @@ class AuthButton extends StatelessWidget {
         ),
         shadowColor: ColorConstant.authButtonBorder,
         backgroundColor: bgColor,
-        fixedSize: Size(width / 1.1, height / 15),
+        fixedSize: Size(width / 1.1, height / 12),
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -41,20 +41,20 @@ class AuthButton extends StatelessWidget {
           firm == 'google'
               ? SvgPicture.asset(
                   'assets/svg/google.svg',
-                  height: 30,
+                  height: 35,
                 )
               : const Icon(
                   Icons.apple,
                   color: ColorConstant.appleBlack,
-                  size: 35,
+                  size: 40,
                 ),
           const SizedBox(
-            width: 5,
+            width: 10,
           ),
           Text(
             text,
             style: GoogleFonts.arimo(
-              fontSize: 18,
+              fontSize: 20,
               color: firm == 'google'
                   ? ColorConstant.googleColor
                   : ColorConstant.blackText,

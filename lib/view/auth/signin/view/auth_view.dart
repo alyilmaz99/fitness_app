@@ -81,7 +81,7 @@ class _AuthViewState extends State<AuthView> {
                 Text(
                   'createAccount',
                   style: GoogleFonts.roboto(
-                    color: ColorConstant.orangeCreate,
+                    color: ColorConstant.appNameColor,
                     decoration: TextDecoration.underline,
                     fontSize: 20,
                     fontWeight: FontWeight.w400,
