@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:fitness_app/core/base/view/base_view.dart';
 import 'package:fitness_app/core/constants/color_constant.dart';
 import 'package:fitness_app/product/widget/auth/auth_button_witget.dart';
@@ -28,12 +29,12 @@ class _AuthViewState extends State<AuthView> {
                   flex: 1,
                 ),
                 Text(
-                  'Welcome To',
+                  'welcomeTo',
                   style: GoogleFonts.robotoSlab(
                     fontSize: 40,
                     fontWeight: FontWeight.bold,
                   ),
-                ),
+                ).tr(),
                 Text(
                   'FITNESS APP',
                   style: GoogleFonts.satisfy(
@@ -49,7 +50,7 @@ class _AuthViewState extends State<AuthView> {
                   height: height,
                   width: width,
                   bgColor: ColorConstant.appBgLight,
-                  text: 'Sign With Google',
+                  text: 'signInApple'.tr(),
                   firm: 'apple',
                   func: () {},
                 ),
@@ -60,7 +61,7 @@ class _AuthViewState extends State<AuthView> {
                   height: height,
                   width: width,
                   bgColor: ColorConstant.appBgLight,
-                  text: 'Sign With Google',
+                  text: 'signInGoogle'.tr(),
                   firm: 'google',
                   func: () {},
                 ),
@@ -73,31 +74,31 @@ class _AuthViewState extends State<AuthView> {
                     color: ColorConstant.greyText,
                     fontSize: 20,
                   ),
-                ),
+                ).tr(),
                 SizedBox(
                   height: height / 30,
                 ),
                 Text(
-                  'Create a new account',
+                  'createAccount',
                   style: GoogleFonts.roboto(
                     color: ColorConstant.orangeCreate,
                     decoration: TextDecoration.underline,
                     fontSize: 20,
                     fontWeight: FontWeight.w400,
                   ),
-                ),
+                ).tr(),
                 const Spacer(
                   flex: 1,
                 ),
                 Padding(
                   padding: EdgeInsets.only(bottom: height / 20),
                   child: Text(
-                    'Privacy & Policy',
+                    'privacy',
                     style: GoogleFonts.roboto(
                       fontSize: 15,
                       color: ColorConstant.greyText,
                     ),
-                  ),
+                  ).tr(),
                 ),
               ],
             ),

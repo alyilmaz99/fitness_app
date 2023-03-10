@@ -1,3 +1,8 @@
 {
-  "loginButton": "GIRIS"
+  "welcomeTo": "Hos Geldiniz",
+  "signInGoogle": "Google ile giris yap",
+  "signInApple": "Apple ile giris yap",
+  "or": "veya",
+  "createAccount": "Yeni hesap olustur",
+  "privacy": "Gizlilik Sozlesmesi"
 }
