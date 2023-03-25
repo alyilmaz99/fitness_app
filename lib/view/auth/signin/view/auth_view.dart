@@ -3,8 +3,6 @@ import 'package:fitness_app/core/base/view/base_view.dart';
 import 'package:fitness_app/core/constants/color_constant.dart';
 import 'package:fitness_app/product/widget/auth/auth_button_witget.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AuthView extends StatefulWidget {
